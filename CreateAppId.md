@@ -11,4 +11,4 @@ Name your project whatever you like. For example, "Wargunners-Revival"
 Press the button "Create".
 
 
-You have now created your App ID. You can return to the tutorial to add it to your game!
+You have now created your App ID. You can [return to the tutorial](https://github.com/DZ-Teck/Wargunners_Multiplayer_Revival/blob/main/README.md) to add it to your game!
