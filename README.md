@@ -1,8 +1,8 @@
 Hello everyone ! I have created this patch to revive the multiplayer mode (online) on the mobile game Wargunners: Online 2D Shooter !
 
-> WARNING: I used AI to help develop this patch, given that I'm new to Android modding.
+> WARNING:I used AI to help develop this patch, given that I'm new to Android modding.
 
-> [!NOTE] USEFUL INFORMATION
+> [!NOTE]USEFUL INFORMATION
 
 > It was published on the Google Play Store and available for download from August 20, 2018, to January 11, 2022, before being removed.
 
