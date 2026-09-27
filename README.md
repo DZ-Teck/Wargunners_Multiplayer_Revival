@@ -40,7 +40,7 @@ patch64 for libMyGame64.so
 patch32 for libMyGame32.so
 
 > WARNING:
-> Open the Python file and replace the Xs in "nouvel_app_id=" with your generated AppId. - [See how to create your AppId]
+> Open the Python file and replace the Xs in "nouvel_app_id=" with your generated AppId. - [See how to create your AppId](https://github.com/DZ-Teck/Wargunners_Multiplayer_Revival/blob/main/CreateAppId.md)
 
 Next, run the file(s) you just modified. > WARNING: The file must be in the same directory as your libMyGame32/64.so!
 
