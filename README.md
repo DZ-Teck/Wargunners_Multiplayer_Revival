@@ -5,12 +5,12 @@ Hello everyone ! I have created this patch to revive the multiplayer mode (onlin
 
 > [!NOTE]
 > USEFUL INFORMATION
-
+>
 > It was published on the Google Play Store and available for download from August 20, 2018, to January 11, 2022, before being removed.
-
-I opened the game's binaries using Ghidra—a program for reading and editing APK configuration files—and discovered that the game's servers were hosted on Photon Engine. However, the developer had deleted their account from the platform, effectively taking the servers offline. But rest assured: Photon Engine's servers are still up and running! That is why I developed these patches, so you can play the game again with your friends and family!
-
-This game uses an AppID (server identifier) ​​to connect for multiplayer. I developed these patches so you can replace the defunct AppID with your own!
+ 
+> I opened the game's binaries using Ghidra—a program for reading and editing APK configuration files—and discovered that the game's servers were hosted on Photon Engine. However, the developer had deleted their account from the platform, effectively taking the servers offline. But rest assured: Photon Engine's servers are still up and running! That is why I developed these patches, so you can play the game again with your friends and family!
+> 
+> This game uses an AppID (server identifier) ​​to connect for multiplayer. I developed these patches so you can replace the defunct AppID with your own!
  
  ## 1.HOW TO USE
  
