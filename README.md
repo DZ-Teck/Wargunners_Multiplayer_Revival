@@ -18,7 +18,7 @@ Hello everyone ! I have created this patch to revive the multiplayer mode (onlin
  
  for 64 bits devices: lib/arm64-v8a/libMyGame.so
  
- for 32 bits devices: lib/armabi-v7a/libMyGame.so
+ for 32 bits devices: lib/armeabi-v7a/libMyGame.so
  
  If your device is 64-bit, take libMyGame.so from arm64-v8a
 If your device is 32-bit, take libMyGame.so from armeabi-v7a
@@ -26,7 +26,7 @@ If your device is 32-bit, take libMyGame.so from armeabi-v7a
  Next, depending on the libMyGame.so file you just obtained (32-bit or 64-bit), rename it/them as follows:
  
  lib/arm64-v8a(64 bits): libMyGame64.so
- lib/armabi-v7a(32 bits): libMyGame32.so
+ lib/armeabi-v7a(32 bits): libMyGame32.so
 
 ## 2.PATCHING
 
