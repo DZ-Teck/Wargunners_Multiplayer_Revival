@@ -55,7 +55,7 @@ If everything went well, the script should tell you: Patched file saved : libMyG
 
 ## 3.MAKE PATCHED APK
 
-Replace the libMyGame.so files you extracted from the APK with your new, modified libMyGame64_patched.so/libMyGame32_patched.so files. Remember to rename them back to libMyGame.so
+Replace the libMyGame.so files you extracted from the APK with your new, modified libMyGame64_patched.so/libMyGame32_patched so files. Remember to rename them back to libMyGame.so
 
 Once this is done, you need to align the APK—that is, optimize the application. Run this command:
 
