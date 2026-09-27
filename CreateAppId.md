@@ -11,4 +11,4 @@ Name your project whatever you like. For example, "Wargunners-Revival"
 Press the button "Create".
 
 
-You have now created your App ID. You can return to the tutorial to add it to your game!ir au tutoriel pour l'ajouter dans votre jeu !
+You have now created your App ID. You can return to the tutorial to add it to your game!
