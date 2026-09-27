@@ -1,8 +1,10 @@
 Hello everyone ! I have created this patch to revive the multiplayer mode (online) on the mobile game Wargunners: Online 2D Shooter !
 
-> WARNING:I used AI to help develop this patch, given that I'm new to Android modding.
+> WARNING:
+> I used AI to help develop this patch, given that I'm new to Android modding.
 
-> [!NOTE]USEFUL INFORMATION
+> [!NOTE]
+> USEFUL INFORMATION
 
 > It was published on the Google Play Store and available for download from August 20, 2018, to January 11, 2022, before being removed.
 
@@ -10,7 +12,7 @@ I opened the game's binaries using Ghidra—a program for reading and editing AP
 
 This game uses an AppID (server identifier) ​​to connect for multiplayer. I developed these patches so you can replace the defunct AppID with your own!
  
-> [!NOTE] 1.HOW TO USE
+ ## 1.HOW TO USE
  
  You need to open the downloaded game APK—not extract it—and select the file(s) appropriate for your device:
  
@@ -26,7 +28,7 @@ If your device is 32-bit, take libMyGame.so from armeabi-v7a
  arm64-v8a(64 bits): libMyGame64.so
  armabi-v7a(32 bits): libMyGame32.so
 
-> [!NOTE] 2.PATCHING
+## 2.PATCHING
 
 You must have Python installed, as well as zipalign and apksigner, to sign your APK; otherwise, you will not be able to install it. If you do not have them, run this command:
 
@@ -47,7 +49,7 @@ for patch32: python3 patch32.py
 
 If everything went well, the script should tell you: Patched file saved : libMyGame64_patched.so/libMyGame32_patched.so
 
-> [!NOTE] 3.MAKE PATCHED APK
+## 3.MAKE PATCHED APK
 
 Replace the libMyGame.so files you extracted from the APK with your new, modified libMyGame64_patched.so/libMyGame32_patched.so files. Remember to rename them back to libMyGame.so
 
