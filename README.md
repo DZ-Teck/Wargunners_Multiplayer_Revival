@@ -25,28 +25,31 @@ If your device is 32-bit, take libMyGame.so from armeabi-v7a
  
  Next, depending on the libMyGame.so file you just obtained (32-bit or 64-bit), rename it/them as follows:
  
- arm64-v8a(64 bits): libMyGame64.so
- armabi-v7a(32 bits): libMyGame32.so
+ lib/arm64-v8a(64 bits): libMyGame64.so
+ lib/armabi-v7a(32 bits): libMyGame32.so
 
 ## 2.PATCHING
 
 You must have Python installed, as well as zipalign and apksigner, to sign your APK; otherwise, you will not be able to install it. If you do not have them, run this command:
 
-sudo apt install python3 zipalign apksigner
+> [!NOTE]
+> sudo apt install python3 zipalign apksigner
 
 I have provided you with two Python files:
 
 patch64 for libMyGame64.so
 patch32 for libMyGame32.so
 
+> [!NOTE]
 > WARNING:
 > Open the Python file and replace the Xs in "nouvel_app_id=" with your generated AppId. - [See how to create your AppId](https://github.com/DZ-Teck/Wargunners_Multiplayer_Revival/blob/main/CreateAppId.md)
 
 Next, run the file(s) you just modified. > WARNING: The file must be in the same directory as your libMyGame32/64.so!
 
-for patch64: python3 patch64.py
-
-for patch32: python3 patch32.py
+> [!NOTE]
+> for patch64: python3 patch64.py
+>
+> for patch32: python3 patch32.py
 
 If everything went well, the script should tell you: Patched file saved : libMyGame64_patched.so/libMyGame32_patched.so
 
@@ -56,11 +59,13 @@ Replace the libMyGame.so files you extracted from the APK with your new, modifie
 
 Once this is done, you need to align the APK—that is, optimize the application. Run this command:
 
-zipalign -f -v 4 wargunners.apk wargunners_aligned.apk
+> [!NOTE]
+> zipalign -f -v 4 wargunners.apk wargunners_aligned.apk
 
 Next, you need to sign the APK using apksigner. You need to generate a key. If you already have one, you can skip this step:
 
-keytool -genkey -v \
+> [!NOTE]
+> keytool -genkey -v \
   -keystore my_key.jks \
   -alias monalias \
   -keyalg RSA \
@@ -71,7 +76,8 @@ keytool -genkey -v \
   
   Next, you can sign your APK: 
   
-  apksigner sign \
+  > [!NOTE]
+> apksigner sign \
   --ks my_key.jks \
   --ks-key-alias monalias \
   --out wargunners_patched.apk \
